@@ -1,0 +1,57 @@
+# Node dependencies - more comprehensive patterns
+**/node_modules
+**/node_modules/**
+node_modules
+node_modules/
+[Cc]lientApp/node_modules
+[Cc]lientApp/node_modules/**
+
+# Dependencies
+node_modules/
+[Cc]lientApp/node_modules/
+**/node_modules/
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Client build and cache
+
+[Cc]lientApp/dist/
+[Cc]lientApp/.cache/
+[Cc]lientApp/build/
+[Cc]lientApp/.next/
+[Cc]lientApp/.nuxt/
+[Cc]lientApp/.angular/
+[Cc]lientApp/coverage/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
