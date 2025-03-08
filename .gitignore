@@ -23,7 +23,8 @@ env/
 [Cc]lientApp/.next/
 [Cc]lientApp/.nuxt/
 [Cc]lientApp/.angular/
-[Cc]lientApp/coverage/
+[Cc]lientApp/package-lock.json
+[Cc]lientApp/yarn.lock
 
 # Build outputs
 dist/
